@@ -48,7 +48,7 @@ export default function HappyBirthdaySana() {
             </div>
             <div>
               <h1 className="text-lg font-bold">Happy Birthday — Sana</h1>
-              <p className="text-sm text-gray-500">A little corner of the web made just for you <3 </p>
+              <p className="text-sm text-gray-500">A little corner of the web made just for you 😚 </p>
             </div>
           </div>
           <div className="flex items-center gap-4">
