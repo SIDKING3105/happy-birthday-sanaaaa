@@ -48,7 +48,7 @@ export default function HappyBirthdaySana() {
             </div>
             <div>
               <h1 className="text-lg font-bold">Happy Birthday — Sana</h1>
-              <p className="text-sm text-gray-500">A little corner of the web made just for you</p>
+              <p className="text-sm text-gray-500">A little corner of the web made just for you <3 </p>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -133,7 +133,7 @@ export default function HappyBirthdaySana() {
 
         {/* Reasons Section */}
         <section id="reasons" className="mt-16">
-          <h3 className="text-2xl font-bold mb-6">Why I really really really like you</h3>
+          <h3 className="text-2xl font-bold mb-6">Why I really really really like you <3 </h3>
           <ul className="grid sm:grid-cols-2 gap-4">
             {reasons.map((reason, i) => (
               <motion.li
@@ -152,7 +152,7 @@ export default function HappyBirthdaySana() {
 
         {/* Gallery Section */}
         <section id="gallery" className="mt-16">
-          <h3 className="text-2xl font-bold mb-6">Photo Gallery 📸</h3>
+          <h3 className="text-2xl font-bold mb-6">Few of Sid's favourite photos 📸</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {[1,2,3,4,5,6].map((num) => (
               <motion.div key={num} whileHover={{ scale: 1.05 }} className="overflow-hidden rounded-2xl shadow-lg border-4 border-white">
@@ -160,7 +160,7 @@ export default function HappyBirthdaySana() {
               </motion.div>
             ))}
           </div>
-          <p className="text-sm text-gray-500 mt-3">Tip: Replace the images in <code>/public</code> with your photos named <code>sana1.jpg</code> … <code>sana6.jpg</code>.</p>
+          <p className="text-sm text-gray-500 mt-3">.</p>
         </section>
 
         {/* Surprise Section */}
@@ -169,7 +169,7 @@ export default function HappyBirthdaySana() {
           <p className="text-lg">
             No matter how many reasons I list, they’ll never capture all the ways you’re special to me.
           </p>
-          <p className="mt-4 text-rose-600 font-semibold">Happy Birthday Sana ❤️</p>
+          <p className="mt-4 text-rose-600 font-semibold">Happy Birthday Sana 💛</p>
         </section>
       </main>
     </div>
