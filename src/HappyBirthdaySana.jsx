@@ -115,7 +115,7 @@ export default function HappyBirthdaySana() {
                 href="#reasons"
                 className="px-4 py-2 rounded-md border border-rose-600 text-rose-600 hover:bg-rose-50"
               >
-                Why I really really really like you
+                Why I really really really like you 💛
               </a>
             </div>
             {aiMessage && (
@@ -124,7 +124,7 @@ export default function HappyBirthdaySana() {
                 animate={{ opacity: 1 }}
                 className="mt-6 p-4 rounded-lg bg-rose-50 border border-rose-100"
               >
-                <strong className="block">A note for Sana:</strong>
+                <strong className="block">A note for my babydoll:</strong>
                 <p className="mt-2">{aiMessage}</p>
               </motion.div>
             )}
@@ -133,7 +133,7 @@ export default function HappyBirthdaySana() {
 
         {/* Reasons Section */}
         <section id="reasons" className="mt-16">
-          <h3 className="text-2xl font-bold mb-6">Why I really really really like you <3 </h3>
+          <h3 className="text-2xl font-bold mb-6">Why I really really really like you 💛 </h3>
           <ul className="grid sm:grid-cols-2 gap-4">
             {reasons.map((reason, i) => (
               <motion.li
